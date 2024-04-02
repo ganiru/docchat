@@ -4,4 +4,5 @@ python-dotenv
 streamlit
 faiss-cpu
 altair<5
+tiktoken
 openai
