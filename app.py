@@ -13,9 +13,11 @@ import os
 def main():
     load_dotenv()
     st.set_page_config(page_title="Chat with your doc")
-    st.header("Chat with your document 💬")
-    st.text("Upload a file below, then chat with it.")
-    #st.write(st.secrets["OPENAI_API_KEY"])
+    st.header("DevObi Document Chat.")
+    st.subheader("Interact with your document 💬",divider=True)
+    st.text("Just upload a file, then chat with it.")
+    st.text("It runs on the browser, so it's completely secure.")
+    
 
     # upload file
     pdf = st.file_uploader("Upload your PDF", type="pdf")
