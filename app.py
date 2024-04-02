@@ -15,7 +15,8 @@ def main():
     st.set_page_config(page_title="Chat with your doc")
     st.header("Chat with your document 💬")
     st.text("Upload a file below, then chat with it.")
-    
+    #st.write(st.secrets["OPENAI_API_KEY"])
+
     # upload file
     pdf = st.file_uploader("Upload your PDF", type="pdf")
     
