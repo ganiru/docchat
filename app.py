@@ -30,9 +30,7 @@ def main():
     load_dotenv()
     st.set_page_config(page_title="Chat with your doc")
     st.header("DevObi Document Chat.")
-    st.subheader("Interact with your document 💬",divider=True)
-    st.text("Just upload a file, then chat with it.")
-    st.text("It runs on the browser, so it's completely secure.")
+    st.subheader("Securely interact with your document 💬",divider=True)
     
 
     # upload file
